@@ -1,0 +1,22 @@
+
+
+.fir{
+   height: 400px;
+   width: 400px;
+   background-color: black;
+   border-radius: 50%;
+}
+
+.sec{
+    height: 400px;
+    width: 400px;
+    padding: 10px;
+    box-sizing: border-box;
+    outline: 10px solid purple;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+img{
+    width: 100%;
+}

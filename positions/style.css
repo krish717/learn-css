@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.box1{
+    height: 400px;
+    width: 400px;
+    background-color: chocolate;
+    position: sticky;
+    bottom: 0px;
+}
