@@ -1,0 +1,80 @@
+
+
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+  .container {
+    min-height: 60vh;
+    background-color: lightblue;
+     display: grid;
+   /* grid-template-columns: repeat(4, 100px); */
+    /* grid-auto-flow: row;
+    grid-auto-columns: 100px; */
+    /* grid-auto-rows: 100px; */
+    /* justify-items: center;
+    align-items: center; */
+
+     grid-template-areas: 'banglore banglore delhi'
+                          'banglore banglore delhi'
+                           'mumbai mumbai pune';
+    /*grid-template: repeat(3,100px) / repeat(5,100px); */
+  }
+
+
+
+
+  .box {
+    color: white;
+    font-size: 4rem;
+    padding: 1rem;
+  }
+
+
+.box-1{
+    background-color: rgba(0, 0, 0, 0.521);
+    /* grid-column-start: 4; */
+    /* grid-column-start: banglore;
+    grid-column-end: banglore;
+    grid-row-start: banglore;
+    grid-row-end: banglore; */
+    grid-area: banglore;
+}
+
+.box-2{
+    background-color: rgba(204, 44, 177, 0.521);
+}
+
+.box-3{
+    background-color: rgba(94, 115, 233, 0.521);
+}
+
+.box-4{
+    background-color: rgba(36, 190, 126, 0.521);
+}
+
+.box-5{
+    background-color: rgba(230, 19, 19, 0.521);
+}
+
+.box-6{
+    background-color: rgba(0, 0, 0, 0.521);
+}
+
+.box-7{
+    background-color: rgba(204, 44, 177, 0.521);
+}
+
+.box-8{
+    background-color: rgba(94, 115, 233, 0.521);
+}
+
+.box-9{
+    background-color: rgba(36, 190, 126, 0.521);
+}
+
+.box-10{
+    background-color: rgba(230, 19, 19, 0.521);
+}

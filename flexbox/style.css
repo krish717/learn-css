@@ -1,0 +1,34 @@
+body{
+    margin: 0;
+    background-color: black;
+    color: white;
+  
+}
+
+.parent{
+    padding: 10px;
+    border: 4px solid red;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    
+}
+
+.parent span {
+    background-color: rgba(255, 0, 0, 0.24);
+    /* width: 200px; */
+}
+
+
+.parent p{
+    background-color: rgba(255, 166, 0, 0.541);
+    /* width: 400px; */
+    margin: 0px;
+    /* flex-shrink: 0; */
+}
+
+.parent a{
+    background-color: rgba(0, 0, 255, 0.226);
+    /* width: 400px; */
+}
